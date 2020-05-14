@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: hsl(229, 6%, 66%);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    max-width: 1440px;
+    font-size: 1em;
+    height: 100%;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+    
+    margin: auto;
+}
+#main_content{
+display: flex;
+flex-direction: column;
+}
+/*****the heads section*******/
+.header_content{
+   margin: 3em  auto;
+   display: inline-block;
+   padding: .2em;
+   width: 90%;
+}
+.headColor{
+    color: hsl(234, 12%, 34%);
+}
+.firstPara{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.secondPara{
+    margin: auto;
+}
+.headingText{
+    margin-bottom: .7em;
+    font-weight: 800;
+    font-size: 1.87rem;
+}
+/******the cards section******/
+.cards{
+    position: relative;
+    height: 15em;
+    background: white;
+    padding: 2em;
+    text-align: left;
+    border-radius: .3em;
+    box-shadow: 0 1px 20px rgba(147, 161, 240, 0.3), 0 15px 12px rgba(135, 179, 236, 0.22);
+}
+.cardcontent{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+.headColor{
+    color: hsl(234, 12%, 34%);
+}
+.positionsvg{
+    position: absolute;
+    bottom: 1.3em;
+    right: 1.3em;
+    font-size: 1rem;
+    }
+.cardHeading{
+        margin-bottom: .5em;
+    }
+.cards_section{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width: 30%;
+}
+.card_render{
+    align-self: center;
+}
+.middle_container{
+    height: 32em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card1{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    
+}
+.card2{
+    border-top: 3.4px solid hsl(212, 86%, 64%);
+}
+.card3{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.card4{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+footer{
+    margin: 3em auto;
+}
+a{
+    color: hsl(212, 86%, 64%);
+}
+
+@media only screen and (max-width: 833px) {
+    .cards_section{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .card1{
+        margin-bottom: 2em;
+    }
+    .middle_container{
+        margin-bottom: 2em;
+    }
+    .headingText{
+        font-size: 1.3em;
+
+    }
+    .firstPara{
+        font-size: 1.5em;
+        font-weight: 400;
+    
+    }
+    .secondPara{
+        padding: .2em;
+    }
+}
